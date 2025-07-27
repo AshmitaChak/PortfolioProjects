@@ -131,7 +131,7 @@ from #PercentPopulationVaccinated
 
 
 
--- Cresting View to store data for later visualizations
+-- Creating View to store data for later visualizations
 
 Create view PercentPopulationVaccinated as
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
